@@ -8,7 +8,7 @@ This project was developed by Me from Scratch, In internship at **Oasis Infobyte
 ## 🏢 Internship Information
 
 ![Internship](https://img.shields.io/badge/Internship-Oasis%20Infobyte-blue?style=for-the-badge)
-![Level](https://img.shields.io/badge/Level-3-success?style=for-the-badge)
+![Level](https://img.shields.io/badge/Task-Level%203-success?style=for-the-badge)
 ![Task](https://img.shields.io/badge/Project-Pizza%20Delivery%20Application-orange?style=for-the-badge)
 
 
