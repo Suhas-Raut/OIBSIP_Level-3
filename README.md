@@ -5,13 +5,20 @@ Users can create customized pizzas, securely place orders, and track order statu
 
 This project was developed by Me from Scratch, In internship at **Oasis Infobyte**.
 
-> Internship: Oasis Infobyte  
-> Level 3 — Task: Pizza Delivery Application
+## 🏢 Internship Information
 
----
-## 🧑‍💻 About The Project
+![Internship](https://img.shields.io/badge/Internship-Oasis%20Infobyte-blue?style=for-the-badge)
+![Level](https://img.shields.io/badge/Level-3-success?style=for-the-badge)
+![Task](https://img.shields.io/badge/Project-Pizza%20Delivery%20Application-orange?style=for-the-badge)
+
+
+
+
+
+# 🧑‍💻 About The Project
 I designed and developed the entire application myself — including UI layout, backend architecture, authentication system, database schema, and order lifecycle logic.  
 The objective was to simulate a real restaurant ordering ecosystem instead of a basic CRUD food app.
+
 ---
 
 ## 🧩 Tech Stack
@@ -212,7 +219,7 @@ EMAIL_PASS=your_app_password
 
 ---
 ## ⚙️ Setup & Running the Project
-
+> [!NOTE]
 > Make sure you have **Node.js** and **npm** installed.
 
 ### 1️⃣ Install Dependencies
@@ -254,10 +261,24 @@ MIT License
 
 ---
 
-## 👨‍💻 Author
-Suhas Raut
-Full Stack MERN Developer
+---
 
-Give this project a ⭐ if you like it!
+## 👨‍💻 Developer
+
+**Suhas Raut**  
+🚀 Full Stack MERN Developer
+
+I love building real-world web applications with clean UI, scalable backend architecture, and meaningful user experience.  
+Crustify was designed to simulate an actual restaurant ordering workflow — from custom pizza creation to inventory management and live order tracking.
+
+If you found this project interesting or helpful, consider giving it a ⭐ — it really supports my work and motivates me to build more!
+
+---
+
+### 📬 Connect With Me
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?logo=github&logoColor=white)](https://github.com/Suhas-Raut)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/suhas-raut)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?logo=gmail&logoColor=white)](mailto:suhasraut24@gmail.com)
+
 
 ---
