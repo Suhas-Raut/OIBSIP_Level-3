@@ -263,7 +263,7 @@ MIT License
 
 ---
 
-## 👨‍💻 Developer
+## 👨‍💻 Author
 
 **Suhas Raut**  
 🚀 Full Stack MERN Developer
