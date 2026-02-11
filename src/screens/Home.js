@@ -294,6 +294,7 @@ const [nonVegToppings, setNonVegToppings] = useState([]);
         borderRadius: "12px",
         padding: "20px",
         position: "relative",
+        color: "#000"
       }}
     >
       {/* ❌ CLOSE */}
