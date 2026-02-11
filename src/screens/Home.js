@@ -93,7 +93,7 @@ const [nonVegToppings, setNonVegToppings] = useState([]);
   // Load food items from backend or fallback to dummy data
   const loadFoodItems = async () => {
     try {
-      let response = await fetch("http://localhost:5000/api/auth/foodData", {
+      let response = await fetch("https://oibsip-level-3.onrender.com/api/auth/foodData", {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' }
       })

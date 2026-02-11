@@ -10,7 +10,7 @@ export default function Dashboard() {
   });
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/admin/stats", {
+    fetch("https://oibsip-level-3.onrender.com/api/admin/stats", {
       headers: {
         "auth-token": localStorage.getItem("adminToken")
       }

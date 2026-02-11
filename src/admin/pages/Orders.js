@@ -6,7 +6,7 @@ export default function Orders() {
   const [orders, setOrders] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/api/admin/orders", {
+    fetch("https://oibsip-level-3.onrender.com/api/admin/orders", {
       headers: {
         "auth-token": localStorage.getItem("adminToken")
       }
@@ -18,7 +18,7 @@ export default function Orders() {
   }, []);
 
   const updateStatus = async (email, orderId, status) => {
-    await fetch("http://localhost:5000/api/admin/order-status", {
+    await fetch("https://oibsip-level-3.onrender.com/api/admin/order-status", {
       method: "PUT",
       headers: {
         "Content-Type": "application/json",

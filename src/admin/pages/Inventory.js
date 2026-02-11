@@ -108,7 +108,7 @@ const inventoryData = {
 
 const fetchInventory = async () => {
   try {
-    const res = await fetch("http://localhost:5000/api/admin/inventory", {
+    const res = await fetch("https://oibsip-level-3.onrender.com/api/admin/inventory", {
       headers: {
         "auth-token": localStorage.getItem("adminToken")
       }
@@ -143,7 +143,7 @@ useEffect(() => {
 
 const saveInventory = async () => {
   try {
-    const res = await fetch("http://localhost:5000/api/admin/inventory", {
+    const res = await fetch("https://oibsip-level-3.onrender.com/api/admin/inventory", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
