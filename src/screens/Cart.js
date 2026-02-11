@@ -30,7 +30,7 @@ const handleCheckOut = async () => {
     }
 
     const response = await fetch(
-      "http://localhost:5000/api/auth/orderData",
+      "https://oibsip-level-3.onrender.com/api/auth/orderData",
       {
         method: "POST",
         headers: {
@@ -62,7 +62,7 @@ const handleCheckOut = async () => {
 const handlePayment = async () => {
    console.log("🔥 Pay button clicked");
   const res = await fetch(
-    "http://localhost:5000/api/payment/create-order",
+    "https://oibsip-level-3.onrender.com/api/payment/create-order",
     {
       method: "POST",
       headers: { "Content-Type": "application/json" },
