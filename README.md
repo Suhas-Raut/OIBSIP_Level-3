@@ -43,7 +43,7 @@ The objective was to simulate a real restaurant ordering ecosystem instead of a 
 ---
 
 ## 🌐 Live Demo
-[![Live Site](https://img.shields.io/badge/Visit-Live%20Application-red?style=for-the-badge)](https://your-deployment-link.com)
+[![Live Site](https://img.shields.io/badge/Visit-Live%20Application-red?style=for-the-badge)](https://crustify-one.vercel.app/)
 
 ---
 

@@ -1,5 +1,4 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { useHistory } from 'react-router-dom';
 import { useDispatchCart, useCart } from './ContextReducer';
 import vegIcon from "./Images/veg.svg";
 import nonVegIcon from "./Images/nonveg.svg";
