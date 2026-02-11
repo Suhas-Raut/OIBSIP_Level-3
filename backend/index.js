@@ -2,7 +2,7 @@ require("dotenv").config(); // 👈 MUST be first line
 
 const express = require("express");
 const app = express();
-const port = 5000;
+const PORT = process.env.PORT || 5000;
 const paymentRoutes = require("./Routes/payment");
 
 // Initialize globals
@@ -21,29 +21,16 @@ require("./db")(function (err, data, CatData) {
 });
 
 // ✅ CORS Middleware
-app.use((req, res, next) => {
-  res.setHeader("Access-Control-Allow-Origin", "http://localhost:3000");
-  res.setHeader(
-    "Access-Control-Allow-Headers",
-    "Origin, X-Requested-With, Content-Type, Accept, auth-token"
-  );
-  res.setHeader(
-    "Access-Control-Allow-Methods",
-    "GET, POST, PUT, DELETE, OPTIONS"
-  );
-
-  if (req.method === "OPTIONS") {
-    return res.sendStatus(200);
-  }
-
-  next();
-});
+const cors = require("cors");
+app.use(cors({
+  origin: [
+    "http://localhost:3000",
+    "https://crustify-one.vercel.app"
+  ],
+  credentials: true
+}));
 
 
-// ✅ Handle Preflight Requests
-app.options("*", (req, res) => {
-  res.sendStatus(200);
-});
 
 app.use(express.json());
 
@@ -63,6 +50,7 @@ app.use("/api/admin", require("./Routes/admin"));
 
 
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log(`✅ Server running on port ${PORT}`);
 });
+
