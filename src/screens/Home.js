@@ -7,6 +7,7 @@ import offers from "../data/offers"
 import vegPizza from "../components/Images/VegPizza.png";
 import NonvegPizza from "../components/Images/NonvegPizza.png"
 import { useDispatchCart } from "../components/ContextReducer";
+import "../index.css"
 
 
 export default function Home() {
@@ -343,7 +344,7 @@ const [nonVegToppings, setNonVegToppings] = useState([]);
           <h3 className="tee2">Build Your Own Pizza 🍕</h3>
           <hr />
 
-          <h5>Choose Pizza Base</h5>
+          <h5 className="custom">Choose Pizza Base</h5>
           <select
               className="form-select mb-3"
               value={selectedBase}
@@ -356,7 +357,7 @@ const [nonVegToppings, setNonVegToppings] = useState([]);
             <option>Fresh Pan</option>
           </select>
 
-          <h5>Choose Sauce</h5>
+          <h5 className="custom">Choose Sauce</h5>
           <select
               className="form-select mb-3"
               value={selectedSauce}
@@ -369,7 +370,7 @@ const [nonVegToppings, setNonVegToppings] = useState([]);
             <option>Pesto</option>
           </select>
 
-          <h5>Choose Cheese</h5>
+          <h5 className="custom">Choose Cheese</h5>
           <select
             className="form-select mb-3"
             value={selectedCheese}

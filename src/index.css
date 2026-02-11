@@ -454,7 +454,7 @@ hr{
   color: #00e5ff;
 }
 
-.m-5, h5{
+.m-5{
   color: #fff;
 }
 
@@ -569,3 +569,6 @@ input {
 .badge-nonveg {
   background: #e74c3c;
 }
+
+.custom h5{
+background: rgba(0,0,0,0.3);}
